@@ -12,6 +12,7 @@ class Shoe
   end
    def each_brand(brand)
      @BRANDS.each do |brand|
+     end
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
