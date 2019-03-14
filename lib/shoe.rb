@@ -8,6 +8,7 @@ class Shoe
     if !BRANDS.include?(brand)
     BRANDS << brand
   end
+end
 
 
    def each_brand(brand)
