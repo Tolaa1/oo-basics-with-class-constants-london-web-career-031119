@@ -6,7 +6,6 @@ class Shoe
     @brand = brand
   end
   
-  end
    def each_brand(brand)
      @BRANDS.each do |brand|
      end
