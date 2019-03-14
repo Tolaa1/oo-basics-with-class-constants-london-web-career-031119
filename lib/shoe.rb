@@ -5,10 +5,10 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-  def brand(brand, size)
+  def brand(=brand)
     @brand = brand
     @size = size
-    BRANDS << brand 
+    BRANDS << brand
   end
    def each_brand(brand)
      @BRANDS.each do |brand|
