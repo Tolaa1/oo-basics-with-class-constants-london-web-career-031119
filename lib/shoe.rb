@@ -5,7 +5,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-  
+  def brand(brand, size)
+    @brand = brand
+    @size = size
    def each_brand(brand)
      @BRANDS.each do |brand|
      end
