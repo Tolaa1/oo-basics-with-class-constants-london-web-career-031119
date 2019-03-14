@@ -8,8 +8,6 @@ class Shoe
     BRANDS << brand
   end
 
-  def brand(brand)
-
 
    def each_brand(brand)
      @BRANDS.each do |brand|
