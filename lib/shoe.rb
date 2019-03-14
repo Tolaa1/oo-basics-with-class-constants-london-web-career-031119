@@ -8,6 +8,7 @@ class Shoe
   def brand(brand, size)
     @brand = brand
     @size = size
+    BRANDS << size 
   end
    def each_brand(brand)
      @BRANDS.each do |brand|
